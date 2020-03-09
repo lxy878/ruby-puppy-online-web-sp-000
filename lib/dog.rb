@@ -23,8 +23,3 @@ class Dog
     @@all << self
   end
 end
-
-Dog.new("Pluto").save
-Dog.new("Fido").save
-Dog.new("Maddy").save
-puts Dog.all.inspect
